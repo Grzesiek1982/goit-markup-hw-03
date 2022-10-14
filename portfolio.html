@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header-wrapper container">
       <div class="secondaryFont">
         <span class="logo-left"> <a href="#">Web</a></span>
         <span class="logo-right"> <a href="#">Studio</a></span>
@@ -22,12 +22,12 @@
       <nav>
         <ul class="menu">
           <li><a href="#">Agencja</a></li>
-          <li><a href="../goit-markup-hw-02/portfolio.html">Portfolio</a></li>
+          <li><a href="../goit-markup-hw-03/portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
       <div>
-        <ul class="menu">
+        <ul class="menu-contact">
           <li><a href="mailto:info@example.com">info@example.com</a></li>
           <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
         </ul>
@@ -36,19 +36,25 @@
 
     <main>
       <div>
-        <li>
-          <button type="button" class="button-portfolio">Wszystkie</button>
-        </li>
-        <li><button type="button" class="button-portfolio">Strony</button></li>
-        <li>
-          <button type="button" class="button-portfolio">Aplikacje</button>
-        </li>
-        <li><button type="button" class="button-portfolio">Dizajn</button></li>
-        <li>
-          <button type="button" class="button-portfolio">Marketing</button>
-        </li>
+        <ul class="menu-portfolio container">
+          <li>
+            <button type="button" class="button-portfolio">Wszystkie</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Strony</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Aplikacje</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Dizajn</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Marketing</button>
+          </li>
+        </ul>
       </div>
-      <ul>
+      <ul class="work-wrapper container">
         <li class="work">
           <img
             src="./images/portfolio1.jpg"
@@ -143,16 +149,18 @@
     </main>
 
     <footer>
-      <div class="secondaryFont">
-        <span class="logo-left"> <a href="#">Web</a></span>
-        <span class="logo-right-footer"> <a href="#">Studio</a></span>
-      </div>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <div class="container">
+        <div class="secondaryFont">
+          <span class="logo-left"> <a href="#">Web</a></span>
+          <span class="logo-right-footer"> <a href="#">Studio</a></span>
+        </div>
+        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
 
-      <ul class="menu-footer">
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
-      </ul>
+        <ul class="menu-footer">
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

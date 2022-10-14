@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -73,6 +83,18 @@ h2 {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.menu-portfolio {
+  display: flex;
+  flex-grow: 1;
+  max-width: 10%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .menu {
@@ -82,6 +104,11 @@ h2 {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 50px;
 }
 
 .menu a {
@@ -90,6 +117,30 @@ h2 {
 }
 
 .menu a:hover {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.menu-contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  display: flex;
+  flex-grow: 1;
+  gap: 50px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.menu-contact a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu-contact a:hover {
   text-decoration: none;
   color: #2196f3;
 }
@@ -115,6 +166,11 @@ h2 {
 
 .slider {
   background-color: #2f303a;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .button-hp {
@@ -132,6 +188,7 @@ h2 {
   letter-spacing: 0.06em;
   color: #ffffff;
   border: 0px;
+  padding: 10px 42px;
 }
 
 .hp-first {
@@ -142,6 +199,7 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .description-first {
@@ -175,6 +233,8 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .position {
@@ -185,6 +245,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
 }
 
 .worker {
@@ -196,6 +257,8 @@ h2 {
 
 footer {
   background: #2f303a;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 address {
@@ -219,27 +282,18 @@ address {
   color: #212121;
   font-family: "Roboto", sans-serif;
   border: 0px;
+  padding: 6px 22px;
 }
 
 .button-portfolio:hover {
   background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  border: 0px;
 }
 
 .work {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  margin-bottom: 30px;
 }
 
 .name-project {
@@ -249,6 +303,7 @@ address {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+  padding: 20px 24px 1px 24px;
 }
 
 .type-project {
@@ -258,4 +313,49 @@ address {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+  padding: 1px 24px 20px 24px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: #ececec 1px solid;
+  height: 100px;
+}
+
+.work-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.hp-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hp3-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-bottom: 100px;
+}
+
+.team {
+  background: #f5f4fa;
+  padding-top: 90px;
+  padding-bottom: 20px;
 }

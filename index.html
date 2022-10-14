@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document-GF</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header-wrapper container">
       <div class="secondaryFont">
         <span class="logo-left"> <a href="#">Web</a></span>
         <span class="logo-right"> <a href="#">Studio</a></span>
@@ -22,12 +22,12 @@
       <nav>
         <ul class="menu">
           <li><a href="#">Agencja</a></li>
-          <li><a href="../goit-markup-hw-02/portfolio.html">Portfolio</a></li>
+          <li><a href="../goit-markup-hw-03/portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
       <div>
-        <ul class="menu">
+        <ul class="menu-contact">
           <li><a href="mailto:info@example.com">info@example.com</a></li>
           <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
         </ul>
@@ -36,11 +36,11 @@
 
     <main>
       <div class="slider">
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <h1>EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
         <button type="button" class="button-hp">Zamów usługę</button>
       </div>
-      <div>
-        <ul>
+      <div class="container">
+        <ul class="hp-wrapper">
           <li>
             <h4 class="hp-first">LOREM IPSUM</h4>
             <p class="description-first">
@@ -71,9 +71,9 @@
           </li>
         </ul>
       </div>
-      <section>
+      <section class="container">
         <h2>Czym się zajmujemy</h2>
-        <ul>
+        <ul class="hp3-wrapper">
           <li>
             <img
               src="./images/photo_work_01.jpg"
@@ -89,56 +89,64 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
-          <li class="worker">
-            <img
-              src="./images/photo_team_01.jpg"
-              width="270"
-              alt="Product Designer"
-            />
-            <div class="name">John Doe</div>
-            <div class="position">Product Designer</div>
-          </li>
-          <li class="worker">
-            <img
-              src="./images/photo_team_02.jpg"
-              width="270"
-              alt="Frontend Developer"
-            />
-            <div class="name">John Doe</div>
-            <div class="position">Frontend Developer</div>
-          </li>
-          <li class="worker">
-            <img src="./images/photo_team_03.jpg" width="270" alt="Marketing" />
-            <div class="name">John Doe</div>
-            <div class="position">Marketing</div>
-          </li>
-          <li class="worker">
-            <img
-              src="./images/photo_team_04.jpg"
-              width="270"
-              alt="UI Designer"
-            />
-            <div class="name">John Doe</div>
-            <div class="position">UI Designer</div>
-          </li>
-        </ul>
-      </section>
+      <div class="team">
+        <section class="container">
+          <h2>Nasz zespół</h2>
+          <ul class="hp3-wrapper">
+            <li class="worker">
+              <img
+                src="./images/photo_team_01.jpg"
+                width="270"
+                alt="Product Designer"
+              />
+              <div class="name">John Doe</div>
+              <div class="position">Product Designer</div>
+            </li>
+            <li class="worker">
+              <img
+                src="./images/photo_team_02.jpg"
+                width="270"
+                alt="Frontend Developer"
+              />
+              <div class="name">John Doe</div>
+              <div class="position">Frontend Developer</div>
+            </li>
+            <li class="worker">
+              <img
+                src="./images/photo_team_03.jpg"
+                width="270"
+                alt="Marketing"
+              />
+              <div class="name">John Doe</div>
+              <div class="position">Marketing</div>
+            </li>
+            <li class="worker">
+              <img
+                src="./images/photo_team_04.jpg"
+                width="270"
+                alt="UI Designer"
+              />
+              <div class="name">John Doe</div>
+              <div class="position">UI Designer</div>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer>
-      <div class="secondaryFont">
-        <span class="logo-left"> <a href="#">Web</a></span>
-        <span class="logo-right-footer"> <a href="#">Studio</a></span>
-      </div>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <div class="container">
+        <div class="secondaryFont">
+          <span class="logo-left"> <a href="#">Web</a></span>
+          <span class="logo-right-footer"> <a href="#">Studio</a></span>
+        </div>
+        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
 
-      <ul class="menu-footer">
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
-      </ul>
+        <ul class="menu-footer">
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
