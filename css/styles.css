@@ -190,6 +190,7 @@ h2 {
   color: #ffffff;
   border: 0px;
   padding: 10px 42px;
+  cursor: pointer;
 }
 
 .hp-first {
@@ -284,6 +285,7 @@ address {
   font-family: "Roboto", sans-serif;
   border: 0px;
   padding: 6px 22px;
+  cursor: pointer;
 }
 
 .button-portfolio:hover {
@@ -324,6 +326,7 @@ address {
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
+  margin-bottom: 100px;
 }
 
 .hp-wrapper {
@@ -362,4 +365,10 @@ header {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 75px;
 }
