@@ -378,3 +378,7 @@ header {
   align-items: center;
   gap: 75px;
 }
+
+.lorem {
+  padding: 0px;
+}
